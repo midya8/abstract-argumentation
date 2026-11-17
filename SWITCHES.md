@@ -1,6 +1,6 @@
 # Attack-switch sensitivity
 
-[Live inspector](https://midya8.github.io/argumentlab/switches.html) · [Core semantics and six inspected sources](METHOD.md)
+[Live inspector](https://midya8.github.io/abstract-argumentation/switches.html) · [Core semantics and six inspected sources](METHOD.md)
 
 ## Scope
 
