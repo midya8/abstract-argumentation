@@ -1,6 +1,6 @@
 # Ideal and eager: a shared position must defend itself
 
-ArgumentLab0.4 is an original bounded inspector of established finite abstract-argumentation semantics. It does not introduce ideal/eager semantics or a new solver algorithm. Live entry: [core inspector](https://midya8.github.io/argumentlab/ideal.html).
+ArgumentLab0.4 is an original bounded inspector of established finite abstract-argumentation semantics. It does not introduce ideal/eager semantics or a new solver algorithm. Live entry: [core inspector](https://midya8.github.io/abstract-argumentation/ideal.html).
 
 ## Contract
 
