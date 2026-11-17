@@ -1,6 +1,6 @@
-# ArgumentLab
+# Abstract argumentation
 
-[Live inspector](https://midya8.github.io/argumentlab/) · [Method and six inspected sources](METHOD.md)
+[Live inspector](https://midya8.github.io/abstract-argumentation/) · [Method and six inspected sources](METHOD.md)
 
 I built this to take a small set of arguments and the attacks between them and show, exactly, what follows under nine different definitions of an acceptable set. You hand it arguments and directed attacks; it goes through every subset, checks conflicts and defenses, and compares the nine extension families. The Python side uses bitsets and the JavaScript side uses sets, and the two agree on every complete computational witness. There is no model, no API, and no private dataset involved.
 
@@ -61,7 +61,7 @@ Original implementation, independent checks, and synthetic controls: Midya Rahma
 
 ## Attack-switch sensitivity extension
 
-[Live edit-cube inspector](https://midya8.github.io/argumentlab/switches.html) · [Method and dynamics sources](SWITCHES.md)
+[Live edit-cube inspector](https://midya8.github.io/abstract-argumentation/switches.html) · [Method and dynamics sources](SWITCHES.md)
 
 Hold the arguments and semantics fixed, supply at most six switchable attack pairs, and look at every configuration. It keeps all successful configurations, all tied minimum-edit matches, and all inclusion-minimal matches — which can be larger. Every configuration keeps its complete extension families, exact query witnesses, and full subset classifications, and every single-switch cube edge keeps the extensions gained and lost and the old and new answers. Pick a graph to see its full defense, grounded, and labelling audit.
 
@@ -77,7 +77,7 @@ All 19 original tests and the five original Node/Chrome tests still stand. The s
 
 ## SCC recursion (0.3)
 
-[Open the CF2/stage2 inspector](https://midya8.github.io/argumentlab/scc.html) · [Exact contract, reproduction and inspected foundations](SCC.md)
+[Open the CF2/stage2 inspector](https://midya8.github.io/abstract-argumentation/scc.html) · [Exact contract, reproduction and inspected foundations](SCC.md)
 
 Version 0.3 adds a separate six-argument SCC-recursive inspector. Every candidate keeps all component-defeat edges, restricted child graphs, and child membership obligations. SCCs are recomputed after deletion, and you can drill into the surviving child with the selected part preserved. Global naive/stage is compared against CF2/stage2 without treating either as a ranking. An independent set-based verifier checks every record and a second published fixed-point characterization; optional hash-pinned ASPARTIX/clingo checks agree on 725 frameworks and 1,450 extension families. The native and JavaScript full reports agree on 725 frameworks, 3,052 induced subproblems, 16,375 candidates, and 38,184 obligations.
 
@@ -90,7 +90,7 @@ The SCC release checked 39 Python functions on 3.10–3.13 and 15 Node/Chrome te
 
 ## Ideal/eager semantics (0.4)
 
-[Live ideal/eager inspector](https://midya8.github.io/argumentlab/ideal.html) · [Method, scope and inspected foundations](IDEAL.md)
+[Live ideal/eager inspector](https://midya8.github.io/abstract-argumentation/ideal.html) · [Method, scope and inspected foundations](IDEAL.md)
 
 Intersect the preferred or semi-stable positions, then keep the greatest subset that defends itself against every original attacker. One shared argument can lose its defender when another shared argument is pruned. The default original control shows 152→136→128→128, with isolated a7 surviving. A single pass and an induced-pool graph both give the wrong answer.
 
