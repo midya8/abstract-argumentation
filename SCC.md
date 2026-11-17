@@ -1,6 +1,6 @@
 # A cycle can split after a choice
 
-ArgumentLab 0.3 adds an exhaustive SCC-recursive CF2/stage2 inspector beside the unchanged defense and attack-switch inspectors. [Open it](https://midya8.github.io/argumentlab/scc.html).
+ArgumentLab 0.3 adds an exhaustive SCC-recursive CF2/stage2 inspector beside the unchanged defense and attack-switch inspectors. [Open it](https://midya8.github.io/abstract-argumentation/scc.html).
 
 ## What is computed
 
